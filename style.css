@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; 
+}
+
+
+body {
+    background-color: #E78EA5;
+    color: #333;
+    font-size: 20px;
+}
+
+/* HEADER */
+
+#main-header {
+    background-color: #E78EA5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 10px solid #DA467D; 
+
+}
+
+
+#header-left {
+    display: flex;
+    align-items: center; 
+}
+
+
+#header-image {
+    max-width: 180px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+
+#logo {
+    font-size: 2.5em;
+    color: #FFD1DF;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+}
+
+.navbutton {
+    text-decoration: none;
+    font-family: Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #DA467D;
+    padding: 8px 15px;
+    border-radius: 12px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.navbutton:hover {
+    background-color: #ba3e6c;
+}
+
+
+body {
+    background-color: #FFD1DF; 
+    color: #333; 
+    font-size: 20px;
+}
+
+
+#form-and-image-wrapper {
+    position: relative; 
+    width: 100%; 
+    padding-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+
+#cute-form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+
+
+#main-image2 {
+    position: absolute;
+    right: 0; 
+    bottom: 0; 
+    max-width: 200px; 
+    height: auto;
+    margin: 30px; 
+}
+
+
+#about-me {
+    background-color: #FFD1DF; 
+    padding: 20px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#main-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px; 
+    margin-top: 15px; 
+}
+
+
+
+/* FORM */
+
+
+
+#cute-form {
+    background-color: #ffd1dc; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 550px; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#cute-form h3,
+#cute-form h4,
+#cute-form label {
+    color: #DA467D;
+    font-family: Geneva, Tahoma, sans-serif ;
+}
+#cute-form label {
+    font-family: Geneva, Tahoma, sans-serif;  
+    font-size: 1em;
+    color: #DA467D;
+}
+
+#cute-form input[type="text"],
+#cute-form select {
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid #ffb6c1; 
+    width:65%;
+    margin-top: 10px;
+}
+
+#cute-form input[type="radio"] + label,
+#cute-form input[type="checkbox"] + label {
+    font-size: 1em;
+    color: #d17c89;
+}
+
+
+
+#submit {
+    background-color: #DA467D; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #ff1493; 
+}
+
+#cute-form label {
+    text-decoration: none;
+}
+
+
+#cute-form input[type="text"]:focus,
+#cute-form select:focus {
+    border-color: #DA467D; 
+    outline: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #E78EA5; 
+    padding: 20px;
+    border-top: 10px solid #DA467D; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+}
+
+footer h1 {
+    color: #FFD1DF; 
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+footer section nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 30px;
+}
+
+#footer-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+#footer-ul div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#footer-ul li {
+    margin-bottom: 8px;
+}
+
+#footer-ul a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 0.9em;
+    background: none; 
+    padding: 0; 
+    border: none; 
+    transition: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
